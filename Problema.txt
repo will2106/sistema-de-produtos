@@ -1,0 +1,83 @@
+// Nesta aula vamos reforçar todos os conceitos aprendidos até o momento, utilizando um sistema completo de gerenciamento de produtos, utilizando boas práticas de desenvolvimento.
+
+//Fazer um programa completo em c# funcionando para ser usado em terminal. Fazer sem banco de dados, utilizar lista.
+// Requisitos
+// A classe Login deve ter um método que vai ser responsável por gerar os menus e todas as funcionalidades gerais do programa
+// Para isso vamos seguir a linha de raciocínio abaixo:
+// [ ] Criar estrutura do projeto
+// [ ] Criar Classes
+// [ ] Marca
+// [ ] Usuário
+// [ ] Produto
+// [ ] Login
+// [ ] Implementar a lógica nos métodos
+// [ ] Na classe program.cs chamar apenas o construtor Login que vai gerar o menu e todas as outras opções.
+// Dica: crie os métodos e atributos primeiro, e só depois comece a implementar as ações nos métodos, isso vai gerar uma visão mais sistêmica de seu projeto.
+
+//Tem que conter:
+
+// Marca
+
+// - Codigo: int
+
+// - NomeMarca: string
+
+// - Data Cadastro: Date Time
+
+// - Cadastrar (Marca): string
+
+// + Listar(): List<Marca>
+
+// + Deletar(Marca) : string
+
+// Produto
+
+// - Codigo: int
+
+// - NomeProduto: string
+
+// - Preco float
+
+// Data Cadastro: Date Time
+
+// - Marca: Marca
+
+// - CadastradoPor: Usuario
+
+// - Lista DeProdutos : List<Produto>
+
+// + Cadastrar (Produto): string
+
+// + Listar(): List<Produto>
+
+// + Deletar (Produto): string
+
+// Toda vez que temos composição, significa que a parte não existe sem o todo.
+
+// Usuario
+
+// - Codigo: int
+
+// - Nome: string
+
+// - Email: string
+
+// - Senha: string
+
+// - Data Cadastro: Date Time
+
+// + Cadastrar(Usuario): string
+
+// + Deletar(Usuario): string
+
+// - Logado: bool
+
+// Login
+
+// + Login(): void - construtor
+
+// + Logar(Usuario): string
+
+// + Deslogar(Usuario): string
+
+// Toda vez que temos agregação, significa que a parte pode ser compartilhada entre vários objetos.
